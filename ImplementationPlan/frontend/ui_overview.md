@@ -74,14 +74,17 @@ The UI is divided into three main regions:
 * **Three.js with React Three Fiber (R3F):** The blog author used plain
   Three.js with ES modules.  A declarative layer like R3F simplifies
   component composition and state management in React.
-* **React:** Use React for UI controls and state management.  Libraries
-  like Zustand or Redux can manage simulation state and communicate with
-  the Web Worker.
+* **React:** Use React for UI controls and state management.  Zustand
+  manages the local simulation state mirror, updated via WebSocket
+  snapshots from the backend server.
 * **Tailwind CSS or custom CSS:** For the high‑tech look, consider using
   Tailwind with a custom dark palette.  CSS variables allow dynamic
   theming.
 * **GLSL shaders:** Write custom shaders for trails and halos to control
   alpha fading and color.
+
+The frontend performs client‑side interpolation between server snapshots
+to ensure smooth rendering even under network jitter.
 
 This overview sets the tone for an elegant yet functional interface.  The
 following files describe the components and user flows in more detail.

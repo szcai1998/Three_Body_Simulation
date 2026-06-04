@@ -1,43 +1,57 @@
 # Data structures and state management
 
 Efficient data structures simplify both the physics computations and the
-communication with the frontend.  This file proposes simple types for
-representing bodies, vectors and the simulation state.
+communication between the backend server and the frontend.  This file
+proposes simple types for representing bodies, vectors and the simulation
+state.  All types are defined in Python using Pydantic models for
+validation and serialisation.
 
 ## Vector type
 
-Define a `Vector3` type with `x`, `y` and `z` components.  Include helper
-methods for addition, subtraction, scalar multiplication, dot product,
-norm (magnitude) and normalisation.  Store positions, velocities and
-accelerations as `Vector3` objects.
+Define a `VectorN` type backed by a NumPy array.  The vector is generic
+over dimensionality: currently 2‑D (x, y) but designed for a future
+upgrade to 3‑D (x, y, z).  Include helper methods for addition,
+subtraction, scalar multiplication, dot product, norm (magnitude) and
+normalisation.  Store positions, velocities and accelerations as `VectorN`
+objects.
 
-```ts
-// Example in TypeScript
-interface Vector3 {
-  x: number;
-  y: number;
-  z: number;
-  add(other: Vector3): Vector3;
-  subtract(other: Vector3): Vector3;
-  scale(s: number): Vector3;
-  dot(other: Vector3): number;
-  norm(): number;
-}
+```python
+# Example in Python
+import numpy as np
+from pydantic import BaseModel
+
+class VectorN(BaseModel):
+    """Generic N-dimensional vector backed by a NumPy array.
+    Currently 2D (z=0 plane); designed for future 3D upgrade."""
+    components: list[float]   # [x, y] now, [x, y, z] later
+
+    def to_array(self) -> np.ndarray:
+        return np.array(self.components)
+
+    def add(self, other: "VectorN") -> "VectorN": ...
+    def subtract(self, other: "VectorN") -> "VectorN": ...
+    def scale(self, s: float) -> "VectorN": ...
+    def dot(self, other: "VectorN") -> float: ...
+    def norm(self) -> float: ...
+    def normalize(self) -> "VectorN": ...
 ```
+
+Internally the simulation engine should use raw NumPy arrays for
+performance.  The Pydantic `VectorN` model is used at API boundaries for
+serialisation and validation.
 
 ## Body object
 
 Each body should encapsulate its mass, position, velocity and acceleration:
 
-```ts
-interface Body {
-  id: string;          // unique identifier (used in UI)
-  mass: number;        // kilograms or arbitrary units
-  position: Vector3;   // current position
-  velocity: Vector3;   // current velocity
-  acceleration: Vector3; // acceleration from last force calculation
-  trail: Vector3[];    // optional array storing recent positions for drawing trails
-}
+```python
+class Body(BaseModel):
+    id: str                    # unique identifier (used in UI)
+    mass: float                # arbitrary units (G = 1)
+    position: VectorN          # current position
+    velocity: VectorN          # current velocity
+    acceleration: VectorN      # acceleration from last force calculation
+    trail: list[VectorN] = []  # recent positions for drawing trails
 ```
 
 The `id` field lets the UI link sliders and editors to specific bodies.
@@ -50,18 +64,17 @@ positions can be removed when the trail reaches a maximum length.
 The state of the simulation includes the collection of bodies and global
 parameters:
 
-```ts
-interface SimulationState {
-  bodies: Body[];
-  G: number;           // gravitational constant (can be scaled)
-  epsilon: number;     // softening length
-  time: number;        // current simulation time in seconds
-  timestep: number;    // base time step (Δt)
-  integrator: "verlet" | "rk4" | "kepler";
-  running: boolean;    // whether the simulation is currently stepping
-  chaosMode: boolean;  // whether a perturbed copy is being run
-  divergenceHistory: number[]; // divergence values for chaos metric
-}
+```python
+class SimulationState(BaseModel):
+    bodies: list[Body]
+    G: float = 1.0             # gravitational constant (can be scaled)
+    epsilon: float = 1e-3      # softening length
+    time: float = 0.0          # current simulation time
+    timestep: float = 0.01     # base time step (Δt)
+    integrator: str = "verlet" # "verlet" | "rk4" | "kepler"
+    running: bool = False      # whether the simulation is currently stepping
+    chaos_mode: bool = False   # whether a perturbed copy is being run
+    divergence_history: list[float] = []  # divergence values for chaos metric
 ```
 
 ## Hidden signals / diagnostics
@@ -79,12 +92,13 @@ To support the hidden panel, compute and store extra fields:
 * `divergence`: current separation between original and perturbed systems
   (when chaos mode is enabled).
 
-These diagnostics can be updated after each integration step and passed to
-the UI.
+These diagnostics can be updated after each integration step and streamed
+to the frontend via WebSocket.
 
 ## Simulation step function
 
 The core engine should expose a function like `step(state: SimulationState)`
 which performs a single integration step using the chosen integrator and
-updates all diagnostic fields.  When running in a Web Worker this function
-can be looped to progress the simulation while keeping the UI thread free.
+updates all diagnostic fields.  When running in the FastAPI server this
+function is called in an asyncio loop to progress the simulation while
+streaming state snapshots to the frontend via WebSocket.

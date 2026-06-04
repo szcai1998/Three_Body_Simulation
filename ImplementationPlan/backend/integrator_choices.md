@@ -3,7 +3,8 @@
 To move the bodies through time, the simulator must integrate the ordinary
 differential equations for positions and velocities.  This file summarizes
 several integrators, their advantages and disadvantages, and
-implementation recommendations.
+implementation recommendations.  All integrators are implemented in Python
+using NumPy arrays for vector operations.
 
 ## Euler integrator (for illustration only)
 

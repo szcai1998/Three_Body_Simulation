@@ -1,10 +1,11 @@
 # Framework and technology recommendations
 
-Although the simulation can be built with plain JavaScript and WebGL, using
-modern frameworks accelerates development and improves maintainability.  This
-file summarises recommended tools for the frontend.
+This file summarises the chosen tools for both the frontend and the backend.
+The simulation uses a client‑server architecture: a Python FastAPI backend
+runs the physics engine and streams results to a React frontend over
+WebSocket.
 
-## React + React Three Fiber (R3F)
+## Frontend: React + React Three Fiber (R3F)
 
 React provides a declarative way to build user interfaces.  The R3F library
 is a renderer for Three.js that allows you to write 3D scenes as React
@@ -21,12 +22,13 @@ components.  Benefits include:
 
 ## State management
 
-The physics state should not reside in React component state because it is
-updated at high frequency.  Options include:
+The physics state lives on the backend server.  The frontend maintains a
+local mirror in Zustand that is updated from WebSocket snapshots.
+Components subscribe to Zustand stores for rendering.
 
 * **Zustand:** A small, hook‑based state manager that is ideal for
-  simulations.  The simulation worker can post snapshots to Zustand
-  stores, and components can subscribe to updates.
+  high‑frequency simulation updates.  The WebSocket handler writes
+  snapshots to the Zustand store, and R3F components subscribe to updates.
 * **Redux Toolkit:** If the application grows larger, Redux provides
   predictable state flows.  However it may be overkill for this project.
 
@@ -38,31 +40,38 @@ updated at high frequency.  Options include:
 * **CSS variables:** Define variables for colours and sizes so that users
   can switch themes (e.g. light vs dark) if desired.
 
-## Web Worker communication
+## Frontend ↔ Backend communication
 
-The physics engine will run in a Web Worker.  Use the `comlink` library to
-wrap the worker in a proxy so that you can call its methods directly
-without serialising function arguments manually.  Alternatively, use
-message channels with typed messages.
+The frontend communicates with the Python FastAPI backend over two
+channels:
 
-## Testing and storybook
+* **WebSocket** (`/ws/simulation`): Real‑time bidirectional channel for
+  simulation streaming.  The backend pushes state snapshots at ~60 FPS;
+  the frontend sends control commands (start, pause, step, set_speed).
+* **REST API** (`/api/...`): Request/response endpoints for configuration,
+  presets, body CRUD, and parameter updates.
+
+Client‑side interpolation between server snapshots ensures smooth rendering
+even if network jitter causes brief delays.
+
+## Testing
 
 * **Storybook:** Use Storybook to develop UI components in isolation.  It
   helps refine the design before connecting to the backend.
-* **Jest + React Testing Library:** Write tests for components and worker
-  interactions.  Simulate user actions (dragging, clicking) to ensure the
-  UI behaves correctly.
+* **Vitest + React Testing Library:** Write tests for components and
+  WebSocket interactions.  Simulate user actions (dragging, clicking) to
+  ensure the UI behaves correctly.
 
 ## Deployment
 
-The entire application can be hosted statically.  Tools like Vite or
-Create‑React‑App can bundle the code.  A CI pipeline (GitHub Actions)
-should run tests and deploy to GitHub Pages or a similar static host.
+The FastAPI backend serves the built frontend (Vite production bundle) as
+static files in production.  During development, Vite's dev server runs on
+`:5173` and the FastAPI server runs on `:8000` with CORS enabled.
 
 ## Optional: Alternative languages
 
 If performance becomes a concern, consider writing the simulation engine in
-Rust, compiling it to WebAssembly and exposing it to JavaScript.  Rust’s
-type safety and performance are well‑suited to numerical integration.  This
-approach would require additional tooling (e.g. `wasm-bindgen`) but could
-offer improved speed for larger systems.
+Rust, compiling it to WebAssembly and exposing it to JavaScript or calling
+it from Python via PyO3.  Rust's type safety and performance are
+well‑suited to numerical integration.  This approach would require
+additional tooling but could offer improved speed for larger systems.

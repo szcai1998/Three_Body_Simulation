@@ -12,9 +12,10 @@ independently.  The examples assume a React/React Three Fiber environment.
 * Handles pointer events for dragging bodies and drawing velocity arrows.  It
   should forward events only when the user is not interacting with the UI
   (e.g. controls have `pointer-events: none`)【547246529604308†L130-L133】.
-* Receives position and trail data from the physics engine and draws them as
-  `mesh` and `line` objects.  Also draws halos and glows using
-  post‑processing passes.
+* Receives position and trail data from the backend via WebSocket (stored
+  in Zustand) and draws them as `mesh` and `line` objects.  Also draws
+  halos and glows using post‑processing passes.  Interpolates between
+  server snapshots for smooth rendering.
 
 ## ModeSelector
 
@@ -28,7 +29,8 @@ independently.  The examples assume a React/React Three Fiber environment.
 
 * Presents a list of predefined systems (figure‑8, Lagrange triangle,
   butterfly orbit, helix, random)【658212011942306†L221-L227】【547246529604308†L106-L115】.
-* Clicking a preset sends the initial conditions to the backend.
+* Clicking a preset sends a REST request to the backend to load the
+  corresponding initial conditions.
 * Include a random button that generates bodies with random masses,
   positions and velocities and recenters the centre of mass.
 
@@ -78,4 +80,5 @@ independently.  The examples assume a React/React Three Fiber environment.
 
 These components provide a modular architecture for building the interface.
 Developers can implement them incrementally while hooking them up to the
-backend API described in `backend_plan.md`.
+FastAPI backend via WebSocket (simulation streaming) and REST (configuration)
+as described in `backend_plan.md`.
