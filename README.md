@@ -1,118 +1,105 @@
 <div align="center">
-  <h1>🌌 Three Body Simulation</h1>
-  <p><strong>Interactive Gravitational Dynamics in High-Tech Sci-Fi 3D</strong></p>
-  https://github.com/szcai1998/Three_Body_Simulation/raw/main/scratch/figure8_simulation.webm
-  <p><i>Figure-8 Orbital Configuration — A stable 3-body choreography.</i></p>
 
-  https://github.com/szcai1998/Three_Body_Simulation/raw/main/scratch/lagrange_simulation.webm
-  <p><i>Lagrange Triangle — Exploring stability in multi-body systems.</i></p>
+# 🪐 THREE BODY SIMULATION 
 
-  <p>
-    <a href="#features">Features</a> •
-    <a href="#architecture">Architecture</a> •
-    <a href="#tech-stack">Tech Stack</a> •
-    <a href="#getting-started">Getting Started</a> •
-    <a href="#physics--math">Physics & Math</a>
-  </p>
+**[ HIGH-PERFORMANCE GRAVITATIONAL DYNAMICS ENGINE ]**
+
+[![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-cyan?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![React Three Fiber](https://img.shields.io/badge/R3F-Renderer-black?style=for-the-badge&logo=react&logoColor=cyan)](https://docs.pmnd.rs/react-three-fiber/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![Vite](https://img.shields.io/badge/Vite-Bundler-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+
+<br/>
+
+> *An interactive scientific visualization of the N-Body problem, rendered in an immersive 3D spatial environment. Designed for chaos exploration, numerical integrator analysis, and orbital choreography.*
+
+<br/>
+
 </div>
+
+## 🛰️ SYSTEM DEMONSTRATION
+
+<div align="center">
+  <table style="border: none; border-collapse: collapse;">
+    <tr>
+      <td align="center" width="50%" style="border: none;">
+        <b>ORBITAL CHOREOGRAPHY : FIGURE-8</b><br/><br/>
+        <img src="scratch/figure8_simulation.gif" alt="Figure-8" width="100%" style="border-radius: 8px;">
+        <br/><br/><i>Stable 3-body system governed by Velocity Verlet integration.</i>
+      </td>
+      <td align="center" width="50%" style="border: none;">
+        <b>EQUILIBRIUM: LAGRANGE TRIANGLE</b><br/><br/>
+        <img src="scratch/lagrange_simulation.gif" alt="Lagrange Triangle" width="100%" style="border-radius: 8px;">
+        <br/><br/><i>Exploring mass distribution and stability nodes.</i>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+
+## 🔬 CORE FEATURES
+
+- 💠 **Progressive Dynamics:** Seamlessly toggle between 1, 2, and 3-body configurations.
+- ⚙️ **Numerical Integrators:** Compare engine precision live between **Velocity Verlet** (symplectic), **RK4** (high precision), and **Euler** (divergent).
+- 🦋 **Chaos Engine:** Spawn perturbed copies to track trajectory divergence and visualize the *Butterfly Effect* in real-time.
+- 📊 **Live Telemetry:** Monitor system energy conservation, angular momentum, and center-of-mass drift.
+- 🌌 **Sci-Fi Aesthetic:** Additive-blend orbital trails, Unreal bloom post-processing, and interactive camera controls.
 
 ---
 
-An interactive gravitational simulation visualizing the Two-Body and Three-Body problems. Bodies orbit in 2D on a plane rendered within an immersive 3D space, with an architecture designed for a future upgrade to full 3D physics. Built as an educational tool to visualize gravitational dynamics, compare numerical integrators, and explore chaotic orbital mechanics.
+## 🏗️ ARCHITECTURE & TELEMETRY
 
-## ✨ Features
-
-- **1 / 2 / 3-Body Modes:** Progressive learning flow from simple orbits to chaotic dynamics.
-- **Multiple Numerical Integrators:** Velocity Verlet (default), RK4, and Euler.
-- **Adaptive Time Stepping:** Maintains precision during close encounters.
-- **Chaos Mode:** Perturbed copy with divergence tracking (butterfly effect).
-- **Real-Time Diagnostics:** Live monitoring of energy drift, angular momentum, and center of mass.
-- **Preset Library:** Instantly load famous configurations like Figure-8, Lagrange triangle, and Butterfly.
-- **High-Tech Sci-Fi Aesthetic:** Glowing bodies, additive-blend trails, bloom post-processing, and an immersive starfield.
-
-## 🏗 Architecture
-
-The project is structured as a Monorepo containing a decoupled frontend and backend:
+The system operates on a decoupled client-server architecture, communicating via high-frequency WebSockets (~60Hz telemetry stream).
 
 ```text
-Three_Body_Simulation/
-├── backend/             # Python 3.11+ / FastAPI — Physics Engine
-│   ├── app/             # Application logic (routers, models, logic)
-│   ├── tests/           # pytest suite
-│   └── .venv/           # Local virtual environment
-├── frontend/            # React + TypeScript + Vite — 3D Renderer
-│   ├── src/             # React components, R3F scenes, store
-│   └── tests/           # Vitest suite
-├── scratch/             # Demo assets and screenshots
-├── GEMINI.md            # AI agent configuration guidelines
-└── README.md            # You are here
+[ CLIENT ]                                    [ SERVER ]
+ React 18 + R3F           (WebSocket)         FastAPI + uvicorn
+ Zustand State   <=========================>  Python 3.11 Physics Engine
+ UnrealBloomPass                              NumPy Vectorized Math
 ```
 
-- **Backend (Python + FastAPI):** Acts as the authoritative state owner. It runs the physics simulation, streams state snapshots over WebSockets at ~60 FPS, and serves REST endpoints for configuration.
-- **Frontend (React + React Three Fiber):** A pure renderer. It interpolates between server snapshots for smooth visuals, provides the sci-fi UI via Tailwind CSS, and manages local state via Zustand.
+### 🧮 Numerical Core
+The physics engine resolves Newton's law of universal gravitation:
 
-## 🛠 Tech Stack
+$$ \mathbf{F}_i = \sum_{j \neq i} \frac{G m_i m_j}{|\mathbf{r}_j - \mathbf{r}_i|^3} (\mathbf{r}_j - \mathbf{r}_i) $$
 
-| Layer           | Technologies                                                                 |
-|-----------------|------------------------------------------------------------------------------|
-| **Frontend**    | React, TypeScript, Vite, Three.js (R3F), Zustand, Tailwind CSS, @react-three/drei, @react-three/postprocessing |
-| **Backend**     | Python 3.11+, FastAPI, NumPy, SciPy, Pydantic, uvicorn                        |
-| **Networking**  | WebSockets (Real-time stream) + REST API (Configs)                           |
-| **Testing**     | Vitest (Frontend), pytest (Backend)                                          |
-| **Tooling**     | `uv` (Python pkg manager), `npm`, Ruff (Linting)                             |
+<details>
+<summary><b>View Integrator Specifications</b></summary>
+<br>
 
-## 🚀 Getting Started
+- **Velocity Verlet:** Used as the default solver. It is a symplectic integrator, meaning it perfectly conserves phase-space volume, yielding exceptional energy stability for orbital mechanics over long durations.
+- **Runge-Kutta 4 (RK4):** A 4th-order method offering extremely high precision per step, at the cost of 4 force evaluations.
+- **Euler Method:** Included purely for educational contrast. Highlights rapid energy drift and orbital decay in complex systems.
+</details>
 
-### Prerequisites
+---
 
-- Node.js (v18+)
-- Python (3.11+)
-- [uv](https://github.com/astral-sh/uv) (Extremely fast Python package manager)
+## 🚀 INITIALIZATION SEQUENCE
 
-### 1. Clone the repository
+Ensure you have **Node.js (v18+)** and **Python (3.11+)** installed on your terminal. We utilize [uv](https://github.com/astral-sh/uv) for hyper-fast Python dependency resolution.
 
-```bash
-git clone https://github.com/szcai1998/Three_Body_Simulation.git
-cd Three_Body_Simulation
-```
-
-### 2. Start the Backend
-
-Open a terminal and start the FastAPI physics engine:
-
+### 1. Boot Backend Server
 ```bash
 cd backend
 uv venv
-source .venv/bin/activate  # Or `.venv\Scripts\activate` on Windows
+source .venv/bin/activate  # (Windows: .venv\Scripts\activate)
 uv pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
-*The backend will be available at `http://localhost:8000`.*
+📡 *Telemetry server running on `http://localhost:8000`*
 
-### 3. Start the Frontend
-
-Open a second terminal and start the Vite dev server:
-
+### 2. Boot Rendering Engine
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
-*The frontend will be available at `http://localhost:5173`.*
+🌌 *Renderer active on `http://localhost:5173`*
 
-## 🧮 Physics & Math
+---
 
-The backend simulates the $N$-body problem using Newton's law of universal gravitation:
-
-$$ \mathbf{F}_i = \sum_{j \neq i} \frac{G m_i m_j}{|\mathbf{r}_j - \mathbf{r}_i|^3} (\mathbf{r}_j - \mathbf{r}_i) $$
-
-To handle the differential equations numerically, the simulation supports multiple integrators:
-1. **Euler Method:** Simple but unstable, highlighting energy drift.
-2. **Velocity Verlet:** Symplectic integrator, highly stable for orbital mechanics, conserves energy well.
-3. **Runge-Kutta 4 (RK4):** High precision, but computationally heavier.
-
-All physics states are evaluated in Python using `NumPy` vectorization for performance.
-
-## 📜 License
-
-[MIT License](LICENSE)
+<div align="center">
+  <p>Engineered with ⚛️ for physics enthusiasts and developers.</p>
+  <a href="LICENSE">MIT License</a>
+</div>
