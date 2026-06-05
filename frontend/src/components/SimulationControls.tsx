@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react'
-import { Play, Pause, RotateCcw, Settings2, Shuffle } from 'lucide-react'
+import { Play, Pause, RotateCcw, Settings2, Shuffle, PenTool } from 'lucide-react'
 import { useSimulationStore } from '../store/useSimulationStore'
 import { simulationWs } from '../services/websocket'
 import { api } from '../services/api'
 
 export function SimulationControls() {
-  const { running, mode, integrator, timestep, chaos_mode, playback_speed = 1 } = useSimulationStore()
-  const playbackSpeed = playback_speed
+
+  const { running, mode, integrator, chaos_mode, playbackSpeed, editMode, setEditMode } = useSimulationStore()
   const [presets, setPresets] = useState<string[]>([])
   const [currentPreset, setCurrentPreset] = useState("figure8")
 
@@ -44,6 +44,7 @@ export function SimulationControls() {
           value={currentPreset}
           onChange={handlePresetChange}
           className="bg-zinc-900 border border-zinc-700 rounded px-2 py-1 text-white focus:ring-0 cursor-pointer outline-none capitalize"
+          aria-label="Select Preset"
         >
           {presets.map(p => (
             <option key={p} value={p}>{p.replace(/_/g, ' ')}</option>
@@ -59,13 +60,23 @@ export function SimulationControls() {
           onClick={handleReset}
           className="p-2 hover:bg-white/10 rounded-full transition-colors text-zinc-300 hover:text-white"
           title="Reset Simulation"
+          aria-label="Reset Simulation"
         >
           <RotateCcw size={20} />
+        </button>
+        <button 
+          onClick={() => setEditMode(!editMode)}
+          className={`p-2 rounded-full transition-colors ${editMode ? 'bg-fuchsia-500/20 text-fuchsia-400' : 'hover:bg-white/10 text-zinc-300 hover:text-white'}`}
+          title="Toggle Edit Mode"
+          aria-label="Toggle Edit Mode"
+        >
+          <PenTool size={20} />
         </button>
         <button 
           onClick={handlePlayPause}
           className="p-3 bg-blue-600 hover:bg-blue-500 rounded-full transition-colors text-white shadow-[0_0_15px_rgba(37,99,235,0.5)]"
           title={running ? 'Pause' : 'Play'}
+          aria-label={running ? 'Pause' : 'Play'}
         >
           {running ? <Pause size={24} /> : <Play size={24} className="ml-1" />}
         </button>
@@ -82,6 +93,7 @@ export function SimulationControls() {
             value={integrator} 
             onChange={handleIntegratorChange}
             className="bg-transparent border-none text-white focus:ring-0 cursor-pointer outline-none"
+            aria-label="Select Solver"
           >
             <option value="verlet" className="bg-zinc-900">Velocity Verlet</option>
             <option value="rk4" className="bg-zinc-900">Runge-Kutta 4</option>
@@ -96,6 +108,7 @@ export function SimulationControls() {
             value={playbackSpeed} 
             onChange={(e) => api.updateConfig({ playback_speed: parseInt(e.target.value) })}
             className="bg-transparent border-none text-white focus:ring-0 cursor-pointer outline-none"
+            aria-label="Select Playback Speed"
           >
             <option value="1" className="bg-zinc-900">1x</option>
             <option value="2" className="bg-zinc-900">2x</option>
@@ -108,6 +121,7 @@ export function SimulationControls() {
           onClick={() => api.updateConfig({ chaos_mode: !chaos_mode })}
           className={`flex items-center space-x-1 px-3 py-1 rounded transition-colors border ${chaos_mode ? 'bg-red-500/20 border-red-500/50 text-red-400' : 'bg-transparent border-zinc-700 text-zinc-500 hover:text-zinc-300'}`}
           title="Toggle Chaos Mode (Perturbation)"
+          aria-label="Toggle Chaos Mode"
         >
           <Shuffle size={14} />
           <span className="text-xs uppercase font-bold">Chaos</span>

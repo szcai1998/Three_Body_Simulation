@@ -7,7 +7,8 @@ import { CelestialBody } from './CelestialBody'
 export function SimulationCanvas() {
   const bodies = useSimulationStore((state) => state.bodies)
   const shadowBodies = useSimulationStore((state) => state.shadow_bodies)
-
+  const editMode = useSimulationStore((state) => state.editMode)
+  
   console.log('Rendering Canvas with bodies:', bodies?.length)
 
   return (
@@ -31,8 +32,13 @@ export function SimulationCanvas() {
           enableDamping 
           dampingFactor={0.05} 
           minDistance={1} 
-          maxDistance={5000} 
+          maxDistance={5000}
+          enableRotate={!editMode}
         />
+        
+        {editMode && (
+          <gridHelper args={[100, 100, '#3b82f6', '#1f2937']} position={[0,0,-0.1]} rotation={[Math.PI/2, 0, 0]} />
+        )}
         
         <EffectComposer>
           <Bloom 

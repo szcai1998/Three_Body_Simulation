@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { SimulationCanvas } from './components/SimulationCanvas'
 import { SimulationControls } from './components/SimulationControls'
 import { HiddenPanel } from './components/HiddenPanel'
+import { BodyInspector } from './components/BodyInspector'
 import { simulationWs } from './services/websocket'
 
 function App() {
@@ -35,6 +36,11 @@ function App() {
         {/* Telemetry Drawer */}
         <div className="pointer-events-auto">
           <HiddenPanel />
+        </div>
+
+        {/* Body Inspector */}
+        <div className="pointer-events-auto">
+          <BodyInspector />
         </div>
 
         {/* Bottom Controls */}

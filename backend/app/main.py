@@ -169,3 +169,13 @@ def delete_body(body_id: str):
     global global_state
     global_state.bodies = [b for b in global_state.bodies if b.id != body_id]
     return {"status": "ok"}
+
+# --- Static Files ---
+import os
+from fastapi.staticfiles import StaticFiles
+
+frontend_dist = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../frontend/dist"))
+if os.path.isdir(frontend_dist):
+    app.mount("/", StaticFiles(directory=frontend_dist, html=True), name="static")
+else:
+    print(f"Warning: Frontend dist folder not found at {frontend_dist}. Run `npm run build` in frontend.")

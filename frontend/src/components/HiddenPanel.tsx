@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { Activity, ChevronRight, Zap, Target, Gauge } from 'lucide-react'
+import { Activity, ChevronRight, Zap, Gauge, Split, Compass } from 'lucide-react'
 import { useSimulationStore } from '../store/useSimulationStore'
-import { LineChart, Line, YAxis, ResponsiveContainer } from 'recharts'
+import { LineChart, Line, ScatterChart, Scatter, YAxis, XAxis, ResponsiveContainer } from 'recharts'
 
 export function HiddenPanel() {
   const [isOpen, setIsOpen] = useState(false)
@@ -11,7 +11,12 @@ export function HiddenPanel() {
     angular_momentum, 
     center_of_mass, 
     connected,
-    chartData
+    chartData,
+    kinetic_energy,
+    potential_energy,
+    chaos_mode,
+    divergence_history,
+    phaseSpaceData
   } = useSimulationStore()
 
   const formatSci = (num: number) => num.toExponential(3)
@@ -19,6 +24,8 @@ export function HiddenPanel() {
 
   const driftAbs = Math.abs(energy_drift)
   const driftColor = driftAbs < 0.01 ? 'text-green-400' : driftAbs < 0.05 ? 'text-yellow-400' : 'text-red-400'
+  
+  const currentDivergence = divergence_history.length > 0 ? divergence_history[divergence_history.length - 1] : 0
 
   return (
     <div className={`absolute top-6 right-0 transition-transform duration-300 ease-in-out ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
@@ -26,12 +33,14 @@ export function HiddenPanel() {
       <button 
         onClick={() => setIsOpen(!isOpen)}
         className="absolute -left-12 top-0 p-2 glass-panel rounded-r-none rounded-l-md text-zinc-400 hover:text-white border-r-0 flex flex-col items-center justify-center space-y-1"
+        aria-label={isOpen ? "Close Telemetry Panel" : "Open Telemetry Panel"}
+        aria-expanded={isOpen}
       >
         <Activity size={20} className={connected ? "text-green-400" : "text-red-400"} />
         <ChevronRight size={16} className={`transition-transform ${isOpen ? '' : 'rotate-180'}`} />
       </button>
 
-      <div className="glass-panel w-80 min-h-64 mr-6 p-4 border-r-0 rounded-r-none rounded-l-lg text-sm text-zinc-300">
+      <div className="glass-panel w-80 max-h-[80vh] overflow-y-auto mr-6 p-4 border-r-0 rounded-r-none rounded-l-lg text-sm text-zinc-300 custom-scrollbar">
         <h2 className="text-white font-semibold uppercase tracking-wider flex items-center space-x-2 mb-4">
           <Activity size={18} className="text-blue-400" />
           <span>Telemetry</span>
@@ -65,6 +74,17 @@ export function HiddenPanel() {
               <span className={driftColor}>{(energy_drift * 100).toFixed(4)}%</span>
             </div>
           </div>
+          
+          <div className="space-y-1 mt-4">
+            <div className="flex items-center space-x-2 text-zinc-400 text-xs uppercase tracking-wider">
+              <Split size={14} />
+              <span>Energy Split</span>
+            </div>
+            <div className="flex justify-between font-mono bg-black/20 p-2 rounded text-xs text-zinc-400">
+              <span className="text-blue-400">Kinetic: {formatNum(kinetic_energy)}</span>
+              <span className="text-orange-400">Potential: {formatNum(potential_energy)}</span>
+            </div>
+          </div>
 
           <div className="space-y-1 mt-4">
             <div className="flex items-center space-x-2 text-zinc-400 text-xs uppercase tracking-wider">
@@ -81,7 +101,53 @@ export function HiddenPanel() {
               <span>COM X: {formatNum(center_of_mass.components[0])}</span>
               <span>Y: {formatNum(center_of_mass.components[1])}</span>
             </div>
+            
+            <div className="h-20 w-full mt-2 mb-2 bg-black/20 rounded p-1">
+              <ResponsiveContainer width="100%" height="100%">
+                <LineChart data={chartData}>
+                  <YAxis domain={['auto', 'auto']} hide />
+                  <Line 
+                    type="monotone" 
+                    dataKey="L_mag" 
+                    stroke="#a855f7" 
+                    strokeWidth={2} 
+                    dot={false}
+                    isAnimationActive={false}
+                  />
+                </LineChart>
+              </ResponsiveContainer>
+            </div>
           </div>
+          
+          <div className="space-y-1 mt-4">
+            <div className="flex items-center space-x-2 text-zinc-400 text-xs uppercase tracking-wider">
+              <Compass size={14} />
+              <span>Phase Space (X vs Vx)</span>
+            </div>
+            <div className="h-32 w-full mt-2 bg-black/20 rounded p-1">
+              <ResponsiveContainer width="100%" height="100%">
+                <ScatterChart margin={{ top: 5, right: 5, bottom: 5, left: 5 }}>
+                  <XAxis type="number" dataKey="x" hide domain={['auto', 'auto']} />
+                  <YAxis type="number" dataKey="v" hide domain={['auto', 'auto']} />
+                  <Scatter data={phaseSpaceData} fill="#3b82f6" line={{stroke: '#3b82f6', strokeWidth: 1}} lineType="joint" isAnimationActive={false} />
+                </ScatterChart>
+              </ResponsiveContainer>
+            </div>
+          </div>
+          
+          {chaos_mode && (
+            <div className="space-y-1 mt-4">
+              <div className="flex items-center space-x-2 text-zinc-400 text-xs uppercase tracking-wider">
+                <Compass size={14} />
+                <span>Chaos Divergence</span>
+              </div>
+              
+              <div className="flex justify-between font-mono bg-black/20 p-2 rounded text-xs">
+                <span>Distance:</span>
+                <span className="text-fuchsia-400">{formatNum(currentDivergence)}</span>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>

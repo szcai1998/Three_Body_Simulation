@@ -51,6 +51,8 @@ class SimulationState(BaseModel):
     # Diagnostic Signals
     initial_energy: float | None = None
     total_energy: float = 0.0
+    kinetic_energy: float = 0.0
+    potential_energy: float = 0.0
     energy_drift: float = 0.0
     angular_momentum: VectorN = Field(default_factory=lambda: VectorN())
     center_of_mass: VectorN = Field(default_factory=lambda: VectorN())

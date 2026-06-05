@@ -7,7 +7,9 @@ class SimulationWebSocket {
   private ws: WebSocket | null = null
   private reconnectTimer: ReturnType<typeof setTimeout> | null = null
   private lastChartUpdate = 0
-  private driftHistory: {time: number, drift: number}[] = []
+  private lastPhaseSpaceUpdate = 0
+  private driftHistory: {time: number, drift: number, L_mag: number}[] = []
+  private phaseSpaceHistory: {x: number, v: number}[] = []
 
   connect() {
     if (this.ws?.readyState === WebSocket.OPEN) return
@@ -24,16 +26,40 @@ class SimulationWebSocket {
         const state: Partial<SimulationState> = JSON.parse(event.data)
         const store = useSimulationStore.getState()
         
-        if (state.time !== undefined && state.energy_drift !== undefined) {
+        if (state.time !== undefined) {
           if (state.time < this.lastChartUpdate || state.time === 0) {
             this.driftHistory = []
+            this.phaseSpaceHistory = []
             this.lastChartUpdate = 0
+            this.lastPhaseSpaceUpdate = 0
           }
+          
           if (state.time - this.lastChartUpdate > 0.5) {
-            this.driftHistory.push({ time: state.time, drift: state.energy_drift * 100 })
+            const l_mag = state.angular_momentum ? Math.sqrt(
+              state.angular_momentum.components[0]**2 + 
+              state.angular_momentum.components[1]**2 + 
+              state.angular_momentum.components[2]**2
+            ) : 0
+            
+            this.driftHistory.push({ 
+              time: state.time, 
+              drift: (state.energy_drift ?? 0) * 100,
+              L_mag: l_mag
+            })
             if (this.driftHistory.length > 50) this.driftHistory.shift()
             this.lastChartUpdate = state.time
             store.setChartData([...this.driftHistory])
+          }
+
+          if (state.time - this.lastPhaseSpaceUpdate > 0.1 && state.bodies && state.bodies.length > 0) {
+            const body1 = state.bodies[0]
+            this.phaseSpaceHistory.push({
+              x: body1.position.components[0],
+              v: body1.velocity.components[0]
+            })
+            if (this.phaseSpaceHistory.length > 200) this.phaseSpaceHistory.shift()
+            this.lastPhaseSpaceUpdate = state.time
+            store.setPhaseSpaceData([...this.phaseSpaceHistory])
           }
         }
         

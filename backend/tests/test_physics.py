@@ -31,7 +31,7 @@ def test_verlet_energy_conservation_2_body():
     positions = np.array([b.position.to_array() for b in state.bodies])
     velocities = np.array([b.velocity.to_array() for b in state.bodies])
     masses = np.array([b.mass for b in state.bodies])
-    e0 = compute_energy(positions, velocities, masses, state.G)
+    _, _, e0 = compute_energy(positions, velocities, masses, state.G)
     
     # Step simulation
     for _ in range(100):
@@ -39,7 +39,7 @@ def test_verlet_energy_conservation_2_body():
         
     positions = np.array([b.position.to_array() for b in state.bodies])
     velocities = np.array([b.velocity.to_array() for b in state.bodies])
-    e1 = compute_energy(positions, velocities, masses, state.G)
+    _, _, e1 = compute_energy(positions, velocities, masses, state.G)
     
     # Energy should be conserved to within 0.1% or better
     drift = abs(e1 - e0) / abs(e0)
@@ -53,14 +53,14 @@ def test_3_body_physics_figure_8():
     positions = np.array([b.position.to_array() for b in state.bodies])
     velocities = np.array([b.velocity.to_array() for b in state.bodies])
     masses = np.array([b.mass for b in state.bodies])
-    e0 = compute_energy(positions, velocities, masses, state.G)
+    _, _, e0 = compute_energy(positions, velocities, masses, state.G)
     
     for _ in range(100):
         step_simulation(state)
         
     positions = np.array([b.position.to_array() for b in state.bodies])
     velocities = np.array([b.velocity.to_array() for b in state.bodies])
-    e1 = compute_energy(positions, velocities, masses, state.G)
+    _, _, e1 = compute_energy(positions, velocities, masses, state.G)
     
     # 3-body energy should be relatively stable
     drift = abs(e1 - e0) / abs(e0)
@@ -161,3 +161,22 @@ def test_kepler_vs_rk4():
     
     # They should produce very similar resulting positions
     np.testing.assert_allclose(p_k, p_r, rtol=1e-2, atol=1e-2)
+
+def test_all_presets_initialization():
+    # Verify that all presets can be initialized and stepped forward without errors.
+    # This also checks that the new kinetic and potential energy metrics are calculated.
+    for name, preset_func in PRESETS.items():
+        state = preset_func()
+        
+        # Verify initial values are zeroed / None
+        assert state.total_energy == 0.0
+        assert state.kinetic_energy == 0.0
+        assert state.potential_energy == 0.0
+        assert state.initial_energy is None
+        
+        step_simulation(state)
+        
+        if len(state.bodies) > 0:
+            assert state.initial_energy is not None
+            # Total energy should be sum of kinetic and potential
+            np.testing.assert_allclose(state.kinetic_energy + state.potential_energy, state.total_energy)

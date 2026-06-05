@@ -1,6 +1,8 @@
 import { useRef, useMemo } from 'react'
 import { useFrame } from '@react-three/fiber'
+import { TransformControls } from '@react-three/drei'
 import * as THREE from 'three'
+import { useSimulationStore } from '../store/useSimulationStore'
 import type { Body } from '../store/useSimulationStore'
 
 interface CelestialBodyProps {
@@ -48,34 +50,72 @@ export function CelestialBody({ body, isGhost = false }: CelestialBodyProps) {
   const speed = Math.sqrt(speedSq)
   const emissiveIntensity = isGhost ? 0.5 : (1.0 + Math.min(speed * 0.5, 4.0))
 
+  const { selectedBodyId, setSelectedBodyId, editMode } = useSimulationStore()
+  const isSelected = selectedBodyId === body.id
+
+  const meshContent = (
+    <mesh 
+      ref={meshRef} 
+      position={new THREE.Vector3(...body.position.components)}
+      onClick={(e) => {
+        e.stopPropagation()
+        setSelectedBodyId(body.id)
+      }}
+      onPointerOver={(e) => {
+        e.stopPropagation()
+        document.body.style.cursor = 'pointer'
+      }}
+      onPointerOut={() => {
+        document.body.style.cursor = 'auto'
+      }}
+    >
+      <sphereGeometry args={[visualRadius, 32, 32]} />
+      <meshStandardMaterial 
+        color={mainColor}
+        emissive={glowColor}
+        emissiveIntensity={isSelected ? emissiveIntensity * 2 : emissiveIntensity} 
+        toneMapped={false}
+        transparent={isGhost}
+        opacity={isGhost ? 0.5 : 1.0}
+      />
+      {!isGhost && (
+        <mesh>
+          <sphereGeometry args={[visualRadius * 1.5, 32, 32]} />
+          <meshBasicMaterial 
+            color={mainColor}
+            transparent 
+            opacity={0.2} 
+            blending={THREE.AdditiveBlending}
+            depthWrite={false}
+          />
+        </mesh>
+      )}
+    </mesh>
+  )
+
   return (
     <group>
-      <mesh ref={meshRef} position={new THREE.Vector3(...body.position.components)}>
-        <sphereGeometry args={[visualRadius, 32, 32]} />
-        <meshStandardMaterial 
-          color={mainColor}
-          emissive={glowColor}
-          emissiveIntensity={emissiveIntensity} 
-          toneMapped={false}
-          transparent={isGhost}
-          opacity={isGhost ? 0.5 : 1.0}
-        />
-        {!isGhost && (
-          <mesh>
-            <sphereGeometry args={[visualRadius * 1.5, 32, 32]} />
-            <meshBasicMaterial 
-              color={mainColor}
-              transparent 
-              opacity={0.2} 
-              blending={THREE.AdditiveBlending}
-              depthWrite={false}
-            />
-          </mesh>
-        )}
-      </mesh>
+      {isSelected && editMode && !isGhost ? (
+        <TransformControls 
+          mode="translate" 
+          {...{
+            onDraggingChanged: async (e: any) => {
+              if (!e?.value && meshRef.current) {
+                const pos = meshRef.current.position
+                const { api } = await import('../services/api')
+                await api.updateBody(body.id, { position: { components: [pos.x, pos.y, pos.z] } })
+              }
+            }
+          }}
+        >
+          {meshContent}
+        </TransformControls>
+      ) : (
+        meshContent
+      )}
       
       {body.trail.length > 1 && (
-        <line geometry={trailGeometry} material={trailMaterial} />
+        <primitive object={new THREE.Line(trailGeometry, trailMaterial)} />
       )}
     </group>
   )

@@ -53,7 +53,7 @@ def compute_energy(positions: np.ndarray, velocities: np.ndarray, masses: np.nda
     # The matrix counts every pair twice, so divide by 2
     potential = np.nansum(U_mat) / 2.0
     
-    return float(kinetic + potential)
+    return float(kinetic), float(potential), float(kinetic + potential)
 
 def compute_angular_momentum(positions: np.ndarray, velocities: np.ndarray, masses: np.ndarray) -> np.ndarray:
     """
@@ -297,11 +297,13 @@ def step_simulation(state: SimulationState) -> SimulationState:
         state.divergence_history.clear()
 
     # Diagnostic signals
-    current_energy = compute_energy(positions, velocities, masses, state.G)
+    kinetic_energy, potential_energy, current_energy = compute_energy(positions, velocities, masses, state.G)
     if state.initial_energy is None:
         state.initial_energy = current_energy
         
     state.total_energy = current_energy
+    state.kinetic_energy = kinetic_energy
+    state.potential_energy = potential_energy
     if state.initial_energy != 0.0:
         state.energy_drift = (current_energy - state.initial_energy) / abs(state.initial_energy)
     else:
