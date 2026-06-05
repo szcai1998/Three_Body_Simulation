@@ -1,6 +1,12 @@
 <div align="center">
   <h1>🌌 Three Body Simulation</h1>
   <p><strong>Interactive Gravitational Dynamics in High-Tech Sci-Fi 3D</strong></p>
+  <video src="scratch/figure8_simulation.webm" autoplay loop muted playsinline width="80%"></video>
+  <p><i>Figure-8 Orbital Configuration — A stable 3-body choreography.</i></p>
+
+  <video src="scratch/lagrange_simulation.webm" autoplay loop muted playsinline width="80%"></video>
+  <p><i>Lagrange Triangle — Exploring stability in multi-body systems.</i></p>
+
   <p>
     <a href="#features">Features</a> •
     <a href="#architecture">Architecture</a> •
@@ -13,14 +19,6 @@
 ---
 
 An interactive gravitational simulation visualizing the Two-Body and Three-Body problems. Bodies orbit in 2D on a plane rendered within an immersive 3D space, with an architecture designed for a future upgrade to full 3D physics. Built as an educational tool to visualize gravitational dynamics, compare numerical integrators, and explore chaotic orbital mechanics.
-
-<div align="center">
-  <video src="scratch/figure8_simulation.webm" autoplay loop muted playsinline width="80%"></video>
-  <p><i>Figure-8 Orbital Configuration — A stable 3-body choreography.</i></p>
-
-  <video src="scratch/lagrange_simulation.webm" autoplay loop muted playsinline width="80%"></video>
-  <p><i>Lagrange Triangle — Exploring stability in multi-body systems.</i></p>
-</div>
 
 ## ✨ Features
 
