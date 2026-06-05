@@ -1,10 +1,10 @@
 <div align="center">
   <h1>🌌 Three Body Simulation</h1>
   <p><strong>Interactive Gravitational Dynamics in High-Tech Sci-Fi 3D</strong></p>
-  <video src="scratch/figure8_simulation.webm" autoplay loop muted playsinline width="80%"></video>
+  https://github.com/szcai1998/Three_Body_Simulation/raw/main/scratch/figure8_simulation.webm
   <p><i>Figure-8 Orbital Configuration — A stable 3-body choreography.</i></p>
 
-  <video src="scratch/lagrange_simulation.webm" autoplay loop muted playsinline width="80%"></video>
+  https://github.com/szcai1998/Three_Body_Simulation/raw/main/scratch/lagrange_simulation.webm
   <p><i>Lagrange Triangle — Exploring stability in multi-body systems.</i></p>
 
   <p>
