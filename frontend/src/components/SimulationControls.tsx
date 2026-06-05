@@ -5,10 +5,8 @@ import { simulationWs } from '../services/websocket'
 import { api } from '../services/api'
 
 export function SimulationControls() {
-
-  const { running, mode, integrator, chaos_mode, playbackSpeed, editMode, setEditMode } = useSimulationStore()
+  const { running, mode, integrator, chaos_mode, playback_speed, editMode, setEditMode, current_preset } = useSimulationStore()
   const [presets, setPresets] = useState<string[]>([])
-  const [currentPreset, setCurrentPreset] = useState("figure8")
 
   useEffect(() => {
     api.getPresets().then(res => {
@@ -26,12 +24,15 @@ export function SimulationControls() {
 
   const handleReset = async () => {
     await api.reset()
+    useSimulationStore.getState().setChartData([])
+    useSimulationStore.getState().setPhaseSpaceData([])
   }
 
   const handlePresetChange = async (e: React.ChangeEvent<HTMLSelectElement>) => {
     const p = e.target.value
-    setCurrentPreset(p)
     await api.init(p)
+    useSimulationStore.getState().setChartData([])
+    useSimulationStore.getState().setPhaseSpaceData([])
   }
 
   const handleIntegratorChange = async (e: React.ChangeEvent<HTMLSelectElement>) => {
@@ -45,7 +46,7 @@ export function SimulationControls() {
       <div className="flex items-center space-x-2 text-zinc-300">
         <span className="font-medium uppercase tracking-wider text-xs text-zinc-400">Preset</span>
         <select 
-          value={currentPreset}
+          value={current_preset || "figure8"}
           onChange={handlePresetChange}
           className="bg-zinc-900 border border-zinc-700 rounded px-2 py-1 text-white focus:ring-0 cursor-pointer outline-none capitalize"
           aria-label="Select Preset"
@@ -110,7 +111,7 @@ export function SimulationControls() {
         <div className="flex items-center space-x-2">
           <span className="font-medium uppercase tracking-wider text-xs text-zinc-400">Speed</span>
           <select 
-            value={playbackSpeed} 
+            value={playback_speed} 
             onChange={(e) => api.updateConfig({ playback_speed: parseInt(e.target.value) })}
             className="bg-transparent border-none text-white focus:ring-0 cursor-pointer outline-none"
             aria-label="Select Playback Speed"

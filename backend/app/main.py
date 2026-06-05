@@ -124,13 +124,16 @@ def init_simulation(preset: str = "figure8"):
     global global_state
     if preset in PRESETS:
         global_state = PRESETS[preset]()
+        global_state.current_preset = preset
         return {"status": "ok", "preset": preset}
     return {"status": "error", "message": "Preset not found"}
 
 @app.post("/api/reset")
 def reset_simulation():
     global global_state
-    global_state = PRESETS["figure8"]()
+    preset = getattr(global_state, "current_preset", "figure8")
+    global_state = PRESETS[preset]()
+    global_state.current_preset = preset
     return {"status": "ok"}
 
 @app.put("/api/config")

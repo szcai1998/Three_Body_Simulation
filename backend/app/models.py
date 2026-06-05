@@ -43,6 +43,7 @@ class SimulationState(BaseModel):
     time: float = 0.0            # Current simulation time
     timestep: float = 0.01       # Base time step (Δt)
     integrator: str = "verlet"   # "verlet" | "rk4" | "euler" | "kepler"
+    current_preset: str = "figure8"
     running: bool = False
     chaos_mode: bool = False
     shadow_bodies: list[Body] | None = Field(default=None)

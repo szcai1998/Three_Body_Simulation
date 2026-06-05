@@ -27,11 +27,13 @@ class SimulationWebSocket {
         const store = useSimulationStore.getState()
         
         if (state.time !== undefined) {
-          if (state.time < this.lastChartUpdate || state.time === 0) {
+          if (state.time < this.lastChartUpdate) {
             this.driftHistory = []
             this.phaseSpaceHistory = []
-            this.lastChartUpdate = 0
-            this.lastPhaseSpaceUpdate = 0
+            store.setChartData([])
+            store.setPhaseSpaceData([])
+            this.lastChartUpdate = state.time
+            this.lastPhaseSpaceUpdate = state.time
           }
           
           if (state.time - this.lastChartUpdate > 0.5) {

@@ -41,7 +41,7 @@ export interface StoreState extends SimulationState {
   mode: 1 | 2 | 3
   selectedBodyId: string | null
   editMode: boolean
-  playbackSpeed: number
+  current_preset: string
   chartData: {time: number, drift: number, L_mag?: number}[]
   phaseSpaceData: {x: number, v: number}[]
   setConnected: (status: boolean) => void
@@ -49,7 +49,6 @@ export interface StoreState extends SimulationState {
   setSelectedBodyId: (id: string | null) => void
   setEditMode: (mode: boolean) => void
   setMode: (mode: 1 | 2 | 3) => void
-  setPlaybackSpeed: (speed: number) => void
   setChartData: (data: {time: number, drift: number, L_mag?: number}[]) => void
   setPhaseSpaceData: (data: {x: number, v: number}[]) => void
 }
@@ -80,7 +79,7 @@ export const useSimulationStore = create<StoreState>((set) => ({
   mode: 3,
   selectedBodyId: null,
   editMode: false,
-  playbackSpeed: 1,
+  current_preset: "figure8",
   chartData: [],
   phaseSpaceData: [],
 
@@ -89,7 +88,6 @@ export const useSimulationStore = create<StoreState>((set) => ({
   setEditMode: (mode) => set({ editMode: mode }),
   setSimulationState: (newState) => set((state) => ({ ...state, ...newState })),
   setMode: (mode) => set({ mode }),
-  setPlaybackSpeed: (speed) => set({ playbackSpeed: speed }),
   setChartData: (data) => set({ chartData: data }),
   setPhaseSpaceData: (data) => set({ phaseSpaceData: data }),
 }))

@@ -28,8 +28,9 @@ describe('SimulationControls Component', () => {
       running: false, 
       integrator: 'verlet',
       chaos_mode: false,
-      playbackSpeed: 1,
-      mode: 3
+      playback_speed: 1,
+      current_preset: "figure8",
+      editMode: false
     })
   })
 
