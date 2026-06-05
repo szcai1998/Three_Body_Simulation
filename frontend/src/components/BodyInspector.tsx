@@ -4,7 +4,7 @@ import { useSimulationStore } from '../store/useSimulationStore'
 import { api } from '../services/api'
 
 export function BodyInspector() {
-  const { selectedBodyId, bodies, setSelectedBodyId } = useSimulationStore()
+  const { selectedBodyId, bodies, setSelectedBodyId, running } = useSimulationStore()
   
   const body = bodies.find(b => b.id === selectedBodyId)
   
@@ -80,7 +80,8 @@ export function BodyInspector() {
             onChange={handleMassChange}
             onMouseUp={handleMassCommit}
             onTouchEnd={handleMassCommit}
-            className="w-full accent-blue-500 h-1 bg-zinc-700 rounded-lg appearance-none cursor-pointer"
+            disabled={running}
+            className={`w-full accent-blue-500 h-1 rounded-lg appearance-none cursor-pointer ${running ? 'bg-zinc-800 opacity-50' : 'bg-zinc-700'}`}
             aria-label={`Adjust mass for ${body.id}`}
           />
         </div>
@@ -97,7 +98,8 @@ export function BodyInspector() {
                   step="0.1"
                   value={formatNum(body.position.components[axis as 0|1|2])}
                   onChange={(e) => handleVectorChange('position', axis as 0|1|2, e.target.value)}
-                  className="bg-black/30 border border-zinc-700/50 rounded px-2 py-1 text-white font-mono text-xs focus:outline-none focus:border-blue-500"
+                  disabled={running}
+                  className={`bg-black/30 border rounded px-2 py-1 text-white font-mono text-xs focus:outline-none ${running ? 'border-zinc-800 text-zinc-500' : 'border-zinc-700/50 focus:border-blue-500'}`}
                   aria-label={`Position ${['X', 'Y', 'Z'][axis]}`}
                 />
               </div>
@@ -117,13 +119,20 @@ export function BodyInspector() {
                   step="0.1"
                   value={formatNum(body.velocity.components[axis as 0|1|2])}
                   onChange={(e) => handleVectorChange('velocity', axis as 0|1|2, e.target.value)}
-                  className="bg-black/30 border border-zinc-700/50 rounded px-2 py-1 text-white font-mono text-xs focus:outline-none focus:border-blue-500"
+                  disabled={running}
+                  className={`bg-black/30 border rounded px-2 py-1 text-white font-mono text-xs focus:outline-none ${running ? 'border-zinc-800 text-zinc-500' : 'border-zinc-700/50 focus:border-blue-500'}`}
                   aria-label={`Velocity ${['X', 'Y', 'Z'][axis]}`}
                 />
               </div>
             ))}
           </div>
         </div>
+        
+        {running && (
+          <div className="text-[10px] text-yellow-500 mt-4 text-center bg-yellow-500/10 p-1 rounded">
+            Pause simulation to edit body properties.
+          </div>
+        )}
         
       </div>
     </div>

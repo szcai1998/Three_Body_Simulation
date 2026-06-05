@@ -156,11 +156,15 @@ def add_body(body: Body):
 
 @app.put("/api/body/{body_id}")
 def update_body(body_id: str, updates: Dict[str, Any]):
+    from .models import VectorN
     for b in global_state.bodies:
         if b.id == body_id:
             for k, v in updates.items():
                 if hasattr(b, k):
-                    setattr(b, k, v)
+                    if k in ["position", "velocity", "acceleration"]:
+                        setattr(b, k, VectorN(**v))
+                    else:
+                        setattr(b, k, v)
             return {"status": "ok"}
     return {"status": "error", "message": "Body not found"}
 

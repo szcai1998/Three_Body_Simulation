@@ -17,7 +17,11 @@ export function SimulationControls() {
   }, [])
 
   const handlePlayPause = () => {
-    simulationWs.sendCommand(running ? 'pause' : 'start')
+    const isStarting = !running
+    if (isStarting) {
+      setEditMode(false)
+    }
+    simulationWs.sendCommand(isStarting ? 'start' : 'pause')
   }
 
   const handleReset = async () => {
@@ -65,9 +69,10 @@ export function SimulationControls() {
           <RotateCcw size={20} />
         </button>
         <button 
-          onClick={() => setEditMode(!editMode)}
-          className={`p-2 rounded-full transition-colors ${editMode ? 'bg-fuchsia-500/20 text-fuchsia-400' : 'hover:bg-white/10 text-zinc-300 hover:text-white'}`}
-          title="Toggle Edit Mode"
+          onClick={() => !running && setEditMode(!editMode)}
+          disabled={running}
+          className={`p-2 rounded-full transition-colors ${running ? 'text-zinc-600 opacity-50 cursor-not-allowed' : editMode ? 'bg-fuchsia-500/20 text-fuchsia-400' : 'hover:bg-white/10 text-zinc-300 hover:text-white'}`}
+          title={running ? "Pause simulation to use Edit Mode" : "Toggle Edit Mode"}
           aria-label="Toggle Edit Mode"
         >
           <PenTool size={20} />

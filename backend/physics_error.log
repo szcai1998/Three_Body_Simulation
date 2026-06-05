@@ -158,3 +158,3056 @@ Traceback (most recent call last):
                   ^^^^
 NameError: name 'Body' is not defined
 
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in step_simulation
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 228, in <listcomp>
+    positions = np.array([b.position.to_array() for b in state.bodies])
+                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_array'
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
+Traceback (most recent call last):
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/main.py", line 71, in physics_loop
+    step_simulation(global_state)
+  File "/home/aivise/Documents/Three_Body_Simulation/backend/app/physics.py", line 349, in step_simulation
+    merged_body = Body(
+                  ^^^^
+NameError: name 'Body' is not defined
+
